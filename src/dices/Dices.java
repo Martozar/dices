@@ -17,6 +17,7 @@ public class Dices {
     public static void main(String[] args) {
         Dice bd = new Dice(new Side[] {new Side(1,1,1),new Side(2,2,3)}, true);
         System.out.println(bd.getSides()[1].getDist());
+        System.out.println("");
     }
     
 }
